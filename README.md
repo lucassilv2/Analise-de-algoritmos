@@ -5,11 +5,11 @@ Este projeto faz uma análise do desempenho de três algoritmos de ordenação d
 ## Algoritmos Analisados
 
 1. **Radix Sort**  
-   - **Complexidade de Tempo**: \(O(n \cdot k)\), onde \(k\) é o número de dígitos dos números. 
+   - **Complexidade de Tempo**: \(O(n . k)\), onde \(k\) é o número de dígitos dos números. 
    - **Comportamento Observado**: O Radix Sort manteve um tempo de execução relativamente estável, mesmo com o aumento de elementos, indicando um comportamento próximo da linearidade. Isso faz sentido, pois o Radix Sort tem um desempenho eficiente para grandes volumes de dados, desde que \(k\) (o número de dígitos) não seja muito grande.
    
 2. **Quick Sort**  
-   - **Complexidade de Tempo**: \(O(n^2)\) no pior caso, mas \(O(n \log n)\) em média.
+   - **Complexidade de Tempo**: \(O(n^2)\) no pior caso, mas \(O(n log n)\) em média.
    - **Comportamento Observado**: O Quick Sort manteve um tempo de execução consistente e eficiente. Isso sugere que ele não encontrou o pior caso (que ocorre quando os dados estão muito desordenados ou já ordenados em uma certa direção). No caso médio, o Quick Sort é bastante eficiente e mostra um crescimento de tempo em \(O(n \log n)\), que é o que foi observado.
 
 3. **Bubble Sort**  
